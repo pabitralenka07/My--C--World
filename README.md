@@ -8,14 +8,13 @@ A comprehensive repository containing **480+ programs** covering everything from
 
 - [Overview](#-overview)
 - [Repository Structure](#-repository-structure)
-  - [1. Root Directory (Core Algorithms & Question Sets)](#1-root-directory-core-algorithms--question-sets)
+  - [1. My_C (Core Algorithms, DSA Series & Utilities)](#1-my_c-core-algorithms-dsa-series--utilities)
   - [2. C_Lab_Programs (10 Modular Academic Labs)](#2-c_lab_programs-10-modular-academic-labs)
   - [3. C_Practice (220 Progressive DSA Problems)](#3-c_practice-220-progressive-dsa-problems)
   - [4. DAA_Lab (Design and Analysis of Algorithms)](#4-daa_lab-design-and-analysis-of-algorithms)
   - [5. Data-Structure_Lab. (Core Data Structures)](#5-data-structure_lab-core-data-structures)
   - [6. The-Ultimate-C (Chapters 0 to 11 + Projects)](#6-the-ultimate-c-chapters-0-to-11--projects)
   - [7. C++ (Object-Oriented Programs)](#7-c-object-oriented-programs)
-  - [8. My_C (Utilities & Student Records)](#8-my_c-utilities--student-records)
 - [How to Compile and Run](#-how-to-compile-and-run)
 - [Author](#-author)
 
@@ -23,21 +22,24 @@ A comprehensive repository containing **480+ programs** covering everything from
 
 ## 🌟 Overview
 
-| Category | Description | Count / Highlights |
+The repository is organized into 7 clean modules:
+
+| Directory | Focus Area | Contents / Highlights |
 |---|---|---|
-| **C Practice (0 → Hero)** | Step-by-step problem set from basics to DP | 220 Programs |
-| **The Ultimate C** | Complete chapter-wise curriculum with practice sets & projects | 12 Chapters + 2 Projects |
-| **DAA Lab** | Greedy, Divide & Conquer, Dynamic Programming, Backtracking | Graph & Optimization algorithms |
-| **Data Structures Lab** | Linked Lists, Trees, Stacks, Queues, Sparse Matrices | Full manual implementations |
-| **C Lab Programs** | 10 Structured modules for university lab curriculum | 30+ Core lab exercises |
-| **C++** | Introduction to C++ syntax and OOP | `.cpp` programs |
+| **`My_C/`** | Core Algorithms, DSA Series & Utilities | Q1–Q13 problem set, string/array algorithms, student records |
+| **`C_Lab_Programs/`** | Academic Lab Experiments | 10 progressive modules (Basics to Searching) |
+| **`C_Practice/`** | Progressive DSA Problem Set | 220 sequential problems (0 → Hero) |
+| **`DAA_Lab/`** | Design & Analysis of Algorithms | Greedy, Divide & Conquer, Dynamic Programming, Backtracking |
+| **`Data-Structure_Lab./`** | Practical Data Structure Labs | Stacks, Queues, Linked Lists, Trees, Sparse Matrices |
+| **`The-Ultimate-C/`** | Chapter-wise Curriculum & Projects | 12 Chapters + 2 interactive games |
+| **`C++/`** | Modern C++ & OOP | C++ basic syntax, classes, and dynamic memory |
 
 ---
 
 ## 📁 Repository Structure
 
-### 1. Root Directory (Core Algorithms & Question Sets)
-Contains standalone implementations of fundamental algorithms and exam/assignment problem sets (`Q1` to `Q13`):
+### 1. `My_C/` (Core Algorithms, DSA Series & Utilities)
+Contains standalone implementations of fundamental algorithms, student records, and exam/assignment problem sets (`Q1` to `Q13`):
 
 * **DSA Series (`Q1` – `Q13`)**:
   * `Q1_sparse_matrix.c` – Sparse matrix representation and triplet form
@@ -57,6 +59,9 @@ Contains standalone implementations of fundamental algorithms and exam/assignmen
   * `1_string_length.c`, `2_string_compare.c`, `3_reverse_string.c`, `4_count_vowels.c`, `5_string_concat.c`, `6_palindrome_string.c`, `7_reverse_using_stack.c`, `Rev_string_stack.c`, `String_strlen.c`, `string.c`
 * **Array & Matrix Operations**:
   * `2D_array.c`, `3D_array.c`, `2ndlarge.c`, `Addnum_static_array.c`, `Matrix_addition.c`, `Matrix_addn.c`, `Matrix_multiplication.c`, `Sort_arr_asc_dsc_order.c`, `Srh_ele_binary.c`, `Srh_ele_linear.c`
+* **Utilities & Practice**:
+  * `student_marks.c` – Student record calculation and grading utility
+  * `Pabitra.c`, `New.c`, `DS.txt`
 
 ---
 
@@ -163,11 +168,6 @@ A full pedagogical curriculum following each chapter with dedicated practice pro
 
 ---
 
-### 8. `My_C/` (Utilities & Student Records)
-* `student_marks.c` – Record keeping, marks tallying, and student grading logic
-
----
-
 ## 🛠️ How to Compile and Run
 
 ### For C Programs:
@@ -195,4 +195,4 @@ g++ -o program_name program_name.cpp
 
 ## 👤 Author
 
-* **Pabitra Lenka** ([@PabitraLenka](https://github.com/PabitraLenka))
+* **Pabitra Lenka** ([@pabitralenka07](https://github.com/pabitralenka07))
